@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavPanel from "./modules/NavPanel/NavPanel";
+import AppRouter from './modules/AppRouter/AppRouter'
+import {Context} from './index'
+import { check, getUserById } from "./http/userAPI";
+
+import './App.css'
+import { useContext, useEffect } from "react";
+
 
 function App() {
+  const {user} = useContext(Context);
+
+  useEffect(() => {
+    
+    check().then(data => {
+      
+      getUserById(data.id).then(data => user.setUser(data));
+			user.setIsAuth(true);
+    })
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <Router>
+        Test comment
+        <div className="app">
+          
+          
+          <AppRouter/>
+
+        </div>
+
+      </Router>
   );
 }
 

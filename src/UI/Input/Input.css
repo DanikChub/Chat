@@ -1,0 +1,25 @@
+.input {
+    background-color: #3c3c3c;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(154, 154, 154);
+}
+
+.input__inner {
+    outline: none;
+    background-color: #3c3c3c;
+    border: none;
+    color: #fff;
+    width: 85%;
+    height: 90%;
+    font-size: 20px;
+    overflow-y: scroll;
+    height: auto;
+    resize: none;
+}
+
+
+

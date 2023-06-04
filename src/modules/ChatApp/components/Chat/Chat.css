@@ -1,0 +1,38 @@
+.chat {
+    height: 100%;
+    align-items: center;
+    width: 33%;
+}
+
+.chat__body {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: #212121;
+    overflow-y: scroll;
+}
+
+.chat__body::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+    transform: scaleX(-1);
+}
+
+.chat__body::-webkit-scrollbar-thumb {
+    background-color: #2d2d2d;
+    border-radius: 2px;       
+    
+}
+.fullInput {
+    display: flex;
+    background-color: #3c3c3c;
+    align-items: center;
+}
+
+.chatImg {
+    position: absolute;
+    bottom: 60px;
+    height: 60px;
+    width: auto;
+}
+

@@ -1,0 +1,17 @@
+.ChatInfo {
+    width: 33%;
+    height: 100vh;
+    background-color: #252525;
+}
+
+.ChatUser {
+    width: 100%;
+    color: #fff;
+    background-color: #1e1e1e;
+    height: 50px;
+    transition: .2s linear;
+}
+
+.ChatUser:hover {
+    background-color: #333333;
+}

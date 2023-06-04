@@ -1,0 +1,17 @@
+
+.Menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    background-color: #111111;
+    height: 100vh;
+    z-index: 10000;
+}
+
+.menu-burger {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 40px;
+}

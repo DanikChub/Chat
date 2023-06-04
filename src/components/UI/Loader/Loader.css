@@ -1,0 +1,15 @@
+.bx-up-arrow-circle {
+    font-size: 30px;
+    color:rgb(100, 100, 100);
+    transition: .1s linear;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.bx-up-arrow-circle:hover {
+    color:rgb(159, 159, 159);
+}
+
+.inputFile {
+    display: none;
+}

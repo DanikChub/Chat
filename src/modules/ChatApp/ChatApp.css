@@ -1,0 +1,22 @@
+.ChatApp {  
+    position: relative;
+    display: flex;   
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dark::before {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: .5;
+    background-color: #000;
+    z-index: 999;
+}

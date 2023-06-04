@@ -1,0 +1,14 @@
+.navPanel {
+    width: 5%;
+    background-color: #111111;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-burger {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 40px;
+}

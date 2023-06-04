@@ -1,0 +1,50 @@
+
+.messages {
+    position: relative;
+}
+.message {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.you__message {
+    justify-content: end;
+}
+
+.message span {
+    background-color: rgb(60, 60, 60);
+    padding: 10px;
+    max-width: 65%;
+    border-radius: 3px;
+    
+}
+
+.mess {
+    color: #fff;
+}
+
+.you__message span {
+    
+    background-color: rgb(195, 195, 195);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.contextMenu {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.time {
+    padding-top: 5px;
+    font-size: 13px;
+    color:rgb(28, 28, 28)
+}
+
+.messageImg {
+    max-width: 40%;
+    height: auto;
+}
+
