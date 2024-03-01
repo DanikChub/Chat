@@ -15,7 +15,7 @@ function App() {
     
     check().then(data => {
       
-      getUserById(data.id).then(data => user.setUser(data));
+      getUserById(data.id).then(data => user.setUser(data)).catch(e => console.log(e))
 			user.setIsAuth(true);
     })
   }, [])
@@ -23,7 +23,7 @@ function App() {
   return (
     
       <Router>
-        Test comment
+        
         <div className="app">
           
           
