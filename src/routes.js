@@ -17,11 +17,7 @@ export const routes = [
         path: CHAT_ROUTE + '/:id',
         Component: <ChatPage/>
     },
-
-    
-
-
-    
+ 
 ]
 
 export const notAuthRoutes = [
